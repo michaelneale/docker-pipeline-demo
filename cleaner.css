@@ -1,0 +1,26 @@
+body, p, table, tr, td, strong, h1, h2, h3, h4, h5, h6, blockquote, li {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a, a:visited, a:active, a:hover, a:link {
+   text-decoration: none;
+}
+
+#top-panel {
+   background-image: url("http://www.cloudbees.com/sites/default/files/logo_0.png") !important;
+   background: black;
+   background-repeat: no-repeat;
+}
+
+#top-panel img:first-child {
+   display:none;
+}
+
+#search-box {
+   margin-top: 8px;
+}
+
+#main-table {
+   background: none;   
+   background-position: bottom left;
+}
