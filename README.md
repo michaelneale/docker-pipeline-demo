@@ -1,7 +1,7 @@
 # Jenkins and docker pipeline showcase
 
-This project is a pre-made setup of Jenkins with some common plugins (including the Deployment Pipeline plugin) and Jobs setup ready to go.
-This repo is used by some of the pre-made jobs just as an example.
+This project is a pre-made setup of Jenkins with some common plugins (including the Deployment Pipeline plugin) and Jobs setup ready to go. Based on <a href="https://github.com/cloudbees/jenkins-docker-executors">this</a>.
+(This specific git repo is used by some of the pre-made jobs just as an example.)
 
 This can be used for fun, perhaps a starting point. Or something to point and laugh at.
 
@@ -18,6 +18,14 @@ This bind-mounts in the docker unix socker to the container, so Jenkins can then
 
 
 You will then have Jenkins running with jobs ready to go on port 8080. Kick one of them off and then click on the "pipeline" tab.
+
+Pipeline view: 
+
+<img src="https://raw.githubusercontent.com/michaelneale/docker-pipeline-demo/master/pipeline_view.png"/>
+
+Pre built jobs: 
+
+<img src="https://raw.githubusercontent.com/michaelneale/docker-pipeline-demo/master/jenkins_docker.png"/>
 
 
 # How it works
