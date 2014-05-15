@@ -41,16 +41,10 @@ then export the filesystem, and add /root/.jenkins to /root/.jenkins of a fresh 
 
 Cook up a jenkins configuration how you want in a running container, then:
 
-    docker export > files.tar && tar -xf files.tar -C ../my_container
+	cd upgrade
+	./upgrade.sh running_container_name new_image_name
 
-to get the jenkins_home out of the running container.
-
-Then use a similar Dockerfile:
-
-    FROM michaelneale/jenkins-docker-executors
-    ADD ../my_container/root/.jenkins  /root/.jenkins
-
-The result is a fresh image with all the jobs and plugins ready to go.
+This will place the jenkins_home in a new image - effectively upgrading it (it will base it  on the original jenkins docker image)
 
 
 
