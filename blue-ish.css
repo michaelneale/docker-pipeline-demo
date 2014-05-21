@@ -186,9 +186,11 @@ td[style="vertical-align:middle"] a[href="ws/"] {
     background: transparent !important;
 }
 
+/* someone hates image links */
 a[href="#"] img {
    display: none !important;
 } 
+
 
 
 /* Just remove the page-icons */
