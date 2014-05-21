@@ -59,5 +59,6 @@ Have a look at the config for each job, and mess around with it, break things, t
 
 I am not as stoic as other Jenkins users so I added a theme using the simple theme plugin.
 The GUI themes used  here are based on https://github.com/Dakota628/jenkins-clean-theme
+and https://github.com/hawkfalcon/jenkins-clean-theme/ - icons from here.
 and is served up from:
-https://s3.amazonaws.com/cloudbees-downloads/jenkins-styles/blue-ish.css
+https://s3.amazonaws.com/cloudbees-downloads/jenkins-styles/blue-ish.css (and img subdirectory for icons)

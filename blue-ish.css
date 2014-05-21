@@ -2,9 +2,204 @@ body {
     background: #F0F0F0 !important;
 }
 
+
+a.task-icon-link { 
+  padding-left: 18px; /* Equal to width of new image */
+  margin-left: 8px;
+  vertical-align: middle !important;
+}
+
+a.task-icon-link img { 
+  display: none !important;
+}
+
+/* The small nav icons */
+a[href*="/job/"].task-icon-link { 
+  background: url(img/return.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+#tasks div:nth-child(2) a[href*="/job/"].task-icon-link { 
+  background: url(img/project.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="newJob"].task-icon-link { 
+  background: url(img/newjob.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/asynchPeople/"].task-icon-link { 
+  background: url(img/people.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/builds"].task-icon-link { 
+  background: url(img/history.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href="/projectRelationship"].task-icon-link { 
+  background: url(img/project.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/fingerprint"].task-icon-link { 
+  background: url(img/finger.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href="/manage"].task-icon-link { 
+  background: url(img/manage.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/credential-store"].task-icon-link { 
+  background: url(img/lock.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="repository"].task-icon-link { 
+  background: url(img/maven.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href="/me/my-views"].task-icon-link { 
+  background: url(img/views.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href="/"].task-icon-link { 
+  background: url(img/return.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="changes"].task-icon-link { 
+  background: url(img/paper.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/ws/"].task-icon-link { 
+  background: url(img/folder.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="configure"].task-icon-link { 
+  background: url(img/manage.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="modules"].task-icon-link { 
+  background: url(img/views.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="build?"].task-icon-link { 
+  background: url(img/build.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="javadoc"].task-icon-link { 
+  background: url(img/box.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="console"].task-icon-link { 
+  background: url(img/console.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+xa[href*="Delete"].task-icon-link { 
+  background: url(img/x.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+xa[href*="delete"].task-icon-link { 
+  background: url(img/x.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="git"].task-icon-link { 
+  background: url(img/git.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/testReport"].task-icon-link { 
+  background: url(img/clip.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+a[href*="/redeploy"].task-icon-link { 
+  background: url(img/redeploy.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+div.task a[href="#"]:first-child { 
+  background: url(img/x.png) no-repeat !important; 
+  background-size: contain !important;
+  padding-left: 18px; /* Equal to width of new image */
+  margin-left: 8px;
+  vertical-align: middle !important;
+}
+
+/* The suns */
+a.build-health-link { 
+  padding-left: 24px; /* Equal to width of new image */
+  margin-left: 12px;
+  vertical-align: middle !important;
+}
+
+a.build-health-link img { 
+  display: none !important;
+}
+
+td img[src*="health"] { 
+  display: none !important;
+}
+
+td.healthReport a.build-health-link { 
+  background: url(img/cloud.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+td.healthReport[data="100"] a.build-health-link { 
+  background: url(img/sun.png) no-repeat !important; 
+  background-size: contain !important;
+}
+
+#projectstatus td a[href*="build?"] { 
+  background: url(img/build.png) no-repeat !important; 
+  background-size: contain !important;
+  padding-left: 24px; /* Equal to width of new image */
+  margin-left: 12px;
+}
+
+#projectstatus td a[href*="build?"] img {
+  display: none !important;
+}
+
+
+
+/* Misc fixes */
+
+td[style="vertical-align:middle"] a[href="ws/"] {
+    background: transparent !important;
+}
+
+a[href="#"] img {
+   display: none !important;
+} 
+
+
+/* Just remove the page-icons */
+#main-panel h1 img {
+    display: none !important;
+}
+
+
 #top-panel {
     height: 37px !important;
-    background: #036;
+    background: #000;
     background-image: url("http://www.cloudbees.com/sites/default/files/logo_0.png") !important;
     background-repeat: no-repeat;
 }
@@ -112,7 +307,7 @@ a {
 }
 
 #login-field a {
-	color: white !important;
+	     color: white !important;
 }
 
 #login-field > span > a {
@@ -269,7 +464,7 @@ table {
 }
 
 .subtasks:empty {
-	display: none;
+		display: none;
 }
 
 td.pane, tr.build-row > td {
