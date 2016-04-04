@@ -1,5 +1,7 @@
 # Jenkins and docker pipeline showcase
 
+NOTE: This is way out of date. 
+
 This project is a pre-made setup of Jenkins with some common plugins (including the Deployment Pipeline plugin) and Jobs setup ready to go. Based on <a href="https://github.com/cloudbees/jenkins-docker-executors">this</a>.
 (This specific git repo is used by some of the pre-made jobs just as an example.)
 
