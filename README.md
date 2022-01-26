@@ -1,5 +1,7 @@
 # Jenkins and docker pipeline showcase
 
+[![Git](https://app.soluble.cloud/api/v1/public/badges/6934a242-83d7-4d7c-9239-85dfb64d8f27.svg?orgId=451115019187)](https://app.soluble.cloud/repos/details/github.com/michaelneale/docker-pipeline-demo?orgId=451115019187)  
+
 NOTE: This is way out of date. 
 
 This project is a pre-made setup of Jenkins with some common plugins (including the Deployment Pipeline plugin) and Jobs setup ready to go. Based on <a href="https://github.com/cloudbees/jenkins-docker-executors">this</a>.
